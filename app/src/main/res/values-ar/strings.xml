@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صلة الصلاة</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_about">حول</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+
+    <!-- Dashboard -->
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="countdown_label">الوقت المتبقي</string>
+    <string name="today_prayers">صلوات اليوم</string>
+    <string name="all_prayers_passed">انتهت جميع صلوات اليوم</string>
+
+    <!-- Hijri Month Names -->
+    <string name="hijri_month_1">محرم</string>
+    <string name="hijri_month_2">صفر</string>
+    <string name="hijri_month_3">ربيع الأول</string>
+    <string name="hijri_month_4">ربيع الثاني</string>
+    <string name="hijri_month_5">جمادى الأولى</string>
+    <string name="hijri_month_6">جمادى الثانية</string>
+    <string name="hijri_month_7">رجب</string>
+    <string name="hijri_month_8">شعبان</string>
+    <string name="hijri_month_9">رمضان</string>
+    <string name="hijri_month_10">شوال</string>
+    <string name="hijri_month_11">ذو القعدة</string>
+    <string name="hijri_month_12">ذو الحجة</string>
+
+    <!-- Motivational Quotes -->
+    <string-array name="motivational_quotes">
+        <item>حان وقت الحديث مع الله.</item>
+        <item>الصلاة مفتاح الصباح وقفل المساء.</item>
+        <item>أقرب ما يكون العبد من ربه وهو ساجد.</item>
+        <item>توقف لحظة. تنفس. تواصل مع خالقك.</item>
+        <item>بينك وبين الله دائمًا صلاة.</item>
+        <item>صلاتك نورك. لا تدعه يخفت.</item>
+        <item>الله يسمعك دائمًا. تحدث إليه.</item>
+        <item>أفضل الأعمال الصلاة في أول وقتها.</item>
+        <item>أوقف عالمك. ابدأ صلاتك.</item>
+        <item>دع قلبك يجد السكينة في الصلاة.</item>
+    </string-array>
+
+    <!-- Settings -->
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_enable_notifications">تفعيل إشعارات الصلاة</string>
+    <string name="settings_enable_notifications_desc">استقبال إشعار عند كل وقت صلاة</string>
+    <string name="settings_notification_sound">صوت الإشعار</string>
+    <string name="settings_vibration">الاهتزاز</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_prayer_calculation">حساب الصلاة</string>
+    <string name="settings_location">الموقع</string>
+    <string name="settings_use_gps">استخدام موقع GPS</string>
+    <string name="settings_use_gps_desc">تحديد موقعك تلقائيًا لحساب أوقات الصلاة</string>
+    <string name="settings_select_city">اختر المدينة</string>
+    <string name="settings_calculation_method">طريقة الحساب</string>
+    <string name="settings_asr_juristic">حساب العصر</string>
+    <string name="settings_asr_standard">المعيار (الشافعي / المالكي / الحنبلي)</string>
+    <string name="settings_asr_hanafi">الحنفي</string>
+    <string name="settings_permissions">الأذونات والبطارية</string>
+    <string name="settings_notification_permission">إذن الإشعارات</string>
+    <string name="settings_notification_permission_granted">ممنوح</string>
+    <string name="settings_notification_permission_denied">انقر للمنح</string>
+    <string name="settings_battery_optimization">تحسين البطارية</string>
+    <string name="settings_battery_description">قم بتعطيل تحسين البطارية لضمان إشعارات صلاة موثوقة.</string>
+    <string name="settings_battery_unrestricted">غير مقيد</string>
+    <string name="settings_battery_optimized">انقر لتعطيل التحسين</string>
+
+    <!-- Calculation Methods -->
+    <string name="method_mwl">رابطة العالم الإسلامي</string>
+    <string name="method_isna">الجمعية الإسلامية لأمريكا الشمالية</string>
+    <string name="method_egypt">الهيئة العامة المصرية للمساحة</string>
+    <string name="method_umm_al_qura">أم القرى (مكة)</string>
+    <string name="method_karachi">جامعة كراتشي</string>
+    <string name="method_tehran">معهد الجيوفيزياء، طهران</string>
+
+    <!-- About -->
+    <string name="about_title">حول صلة الصلاة</string>
+    <string name="about_description">صلة الصلاة موجود لتذكيرك بالتوقف عن روتينك اليومي والتحدث إلى الله من خلال الصلاة.\n\nلا إلهاء. لا حسابات. لا إعلانات.\n\nمجرد تذكير لطيف للتواصل مع خالقك، خمس مرات في اليوم.\n\nنسأل الله أن تجلب لك صلاتك السكينة والقرب من الله.</string>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_made_with">صنع بـ ❤️ للأمة</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">تذكيرات الصلاة</string>
+    <string name="notification_channel_description">إشعارات لأوقات الصلاة اليومية</string>
+    <string name="notification_title">وقت صلاة %1$s</string>
+    <string name="notification_text">حان وقت صلاة %1$s. خذ لحظة للتواصل مع الله.</string>
+
+    <!-- Location -->
+    <string name="location_detecting">جاري تحديد الموقع…</string>
+    <string name="location_detected">تم تحديد الموقع</string>
+    <string name="location_failed">تعذر تحديد الموقع. يرجى اختيار مدينة يدويًا.</string>
+</resources>

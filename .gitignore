@@ -1,0 +1,40 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aapt
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+keystore.properties
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# IDE settings
+.idea/
+.DS_Store
+*.iml
+*.ipr
+*.iws
+
+# NDK
+.cxx/
+.externalNativeBuild/
+obj/
+
+# Android Studio captures
+captures/
+
+# Logs
+*.log
+logcat.txt
+
+# Mac
+.DS_Store

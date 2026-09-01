@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrayerLink</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+
+    <!-- Dashboard -->
+    <string name="next_prayer">Next Prayer</string>
+    <string name="countdown_label">Time Remaining</string>
+    <string name="today_prayers">Today\'s Prayers</string>
+    <string name="all_prayers_passed">All prayers for today have passed</string>
+
+    <!-- Hijri Month Names -->
+    <string name="hijri_month_1">Muharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabi\' al-Awwal</string>
+    <string name="hijri_month_4">Rabi\' al-Thani</string>
+    <string name="hijri_month_5">Jumada al-Ula</string>
+    <string name="hijri_month_6">Jumada al-Thani</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Sha\'ban</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Shawwal</string>
+    <string name="hijri_month_11">Dhul Qi\'dah</string>
+    <string name="hijri_month_12">Dhul Hijjah</string>
+
+    <!-- Motivational Quotes -->
+    <string-array name="motivational_quotes">
+        <item>It\'s time to talk to Allah.</item>
+        <item>Prayer is the key to the morning and the bolt of the evening.</item>
+        <item>The closest you are to Allah is when you are in prostration.</item>
+        <item>Take a moment. Breathe. Connect with your Creator.</item>
+        <item>Between you and Allah, there is always prayer.</item>
+        <item>Your prayer is your light. Don\'t let it dim.</item>
+        <item>Allah is always listening. Talk to Him.</item>
+        <item>The best of deeds is the prayer at its earliest time.</item>
+        <item>Pause your world. Begin your prayer.</item>
+        <item>Let your heart find peace in prayer.</item>
+    </string-array>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_enable_notifications">Enable Prayer Notifications</string>
+    <string name="settings_enable_notifications_desc">Receive a notification at each prayer time</string>
+    <string name="settings_notification_sound">Notification Sound</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_prayer_calculation">Prayer Calculation</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_use_gps">Use GPS Location</string>
+    <string name="settings_use_gps_desc">Automatically detect your location for prayer times</string>
+    <string name="settings_select_city">Select City</string>
+    <string name="settings_calculation_method">Calculation Method</string>
+    <string name="settings_asr_juristic">Asr Calculation</string>
+    <string name="settings_asr_standard">Standard (Shafi\'i / Maliki / Hanbali)</string>
+    <string name="settings_asr_hanafi">Hanafi</string>
+    <string name="settings_permissions">Permissions &amp; Battery</string>
+    <string name="settings_notification_permission">Notification Permission</string>
+    <string name="settings_notification_permission_granted">Granted</string>
+    <string name="settings_notification_permission_denied">Tap to grant</string>
+    <string name="settings_battery_optimization">Battery Optimization</string>
+    <string name="settings_battery_description">Disable battery optimization for PrayerLink to ensure reliable prayer notifications.</string>
+    <string name="settings_battery_unrestricted">Unrestricted</string>
+    <string name="settings_battery_optimized">Tap to disable optimization</string>
+
+    <!-- Calculation Methods -->
+    <string name="method_mwl">Muslim World League</string>
+    <string name="method_isna">ISNA (North America)</string>
+    <string name="method_egypt">Egyptian General Authority</string>
+    <string name="method_umm_al_qura">Umm al-Qura (Makkah)</string>
+    <string name="method_karachi">University of Karachi</string>
+    <string name="method_tehran">Institute of Geophysics, Tehran</string>
+
+    <!-- About -->
+    <string name="about_title">About PrayerLink</string>
+    <string name="about_description">PrayerLink exists to remind you to pause your daily routine and talk to Allah through prayer.\n\nNo distractions. No accounts. No ads.\n\nJust a gentle reminder to connect with your Creator, five times a day.\n\nMay your prayers bring you peace and closeness to Allah.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_made_with">Made with ❤️ for the Ummah</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Prayer Reminders</string>
+    <string name="notification_channel_description">Notifications for daily prayer times</string>
+    <string name="notification_title">%1$s Prayer Time</string>
+    <string name="notification_text">It\'s time for %1$s. Take a moment to connect with Allah.</string>
+
+    <!-- Location -->
+    <string name="location_detecting">Detecting location…</string>
+    <string name="location_detected">Location detected</string>
+    <string name="location_failed">Could not detect location. Please select a city manually.</string>
+</resources>

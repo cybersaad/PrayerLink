@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Alarm & notification permissions -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Location for prayer time calculation (optional, user can choose manual city) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- Foreground Service permissions -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+    <application
+        android:name=".PrayerLinkApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrayerLink"
+        android:localeConfig="@xml/locales_config"
+        tools:targetApi="34">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.PrayerLink">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Prayer alarm broadcast receiver -->
+        <receiver
+            android:name=".notification.PrayerAlarmReceiver"
+            android:exported="false" />
+            
+        <!-- Action receiver for interactive reminders -->
+        <receiver
+            android:name=".notification.PrayerActionReceiver"
+            android:exported="false" />
+            
+        <!-- Reminder broadcast receiver -->
+        <receiver
+            android:name=".notification.PrayerReminderReceiver"
+            android:exported="false" />
+
+        <!-- Boot completed receiver to reschedule alarms -->
+        <receiver
+            android:name=".notification.BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Adhan Foreground Service -->
+        <service 
+            android:name=".notification.PrayerAdhanService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+        <!-- AppCompat locale persistence service -->
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+
+    </application>
+
+</manifest>

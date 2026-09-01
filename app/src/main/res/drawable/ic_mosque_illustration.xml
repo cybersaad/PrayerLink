@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="80dp"
+    android:viewportWidth="120"
+    android:viewportHeight="80">
+
+    <!-- Ground/Hills Base -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M0,60 Q30,50 60,60 T120,60 L120,80 L0,80 Z" />
+
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M-10,70 Q40,40 70,60 T130,70 L130,80 L-10,80 Z" />
+
+    <!-- Mosque Structure -->
+    <!-- Base -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M35,65 h50 v10 h-50 z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M40,45 h40 v20 h-40 z" />
+
+    <!-- Main Dome -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M40,45 C45,25 75,25 80,45 Z" />
+
+    <!-- Door -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M52,55 C52,48 68,48 68,55 L68,65 L52,65 Z" />
+
+    <!-- Left Minaret -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M30,65 h6 v-35 h-6 z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M31,30 l2,-10 l2,10 z" />
+
+    <!-- Right Minaret -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M84,65 h6 v-35 h-6 z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M85,30 l2,-10 l2,10 z" />
+
+    <!-- Small Birds -->
+    <path
+        android:strokeColor="#81C784"
+        android:strokeWidth="1.5"
+        android:pathData="M15,25 Q18,22 21,25 Q24,22 27,25" />
+    <path
+        android:strokeColor="#81C784"
+        android:strokeWidth="1.5"
+        android:pathData="M95,35 Q98,32 101,35 Q104,32 107,35" />
+
+</vector>
