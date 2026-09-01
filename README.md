@@ -3,7 +3,7 @@
     width="220" 
     height="220" 
     alt="PrayerLink Logo" 
-    src="https://raw.githubusercontent.com/cybersaad/PrayerLink/main/prayerlink_logo.svg" 
+    src="./play_store_512.png" 
   />
 </p>
 
